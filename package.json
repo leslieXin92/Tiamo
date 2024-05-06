@@ -1,0 +1,26 @@
+{
+  "name": "cabbage",
+  "description": "Love date calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "node postinstall.js"
+  },
+  "bin": {
+    "j": "index.js"
+  },
+  "author": "leslie",
+  "license": "ISC",
+  "homepage": "https://github.com/leslieXin92/cabbage.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leslieXin92/cabbage.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "commander": "^12.0.0"
+  }
+}
