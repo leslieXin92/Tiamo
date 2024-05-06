@@ -72,8 +72,12 @@
 
 ## Changelog
 
-### v1.0.0
+### V1.0.0
 
 1. version (`j -v`)
 2. help (`j -h`)
 3. date calculation(`j cabbage`、`j cabbage -d <date>`、`j cabbage -t <number>`)
+
+### V1.0.1
+
+1. README
