@@ -4,6 +4,7 @@
 const { Command } = require('commander')
 const versionOptions = require('./lib/core/version')
 const cabbage = require('./lib/core/cabbage')
+const bobo = require('./lib/core/bobo')
 const butterfly = require('./lib/core/butterfly')
 const helpOptions = require('./lib/core/help')
 
@@ -14,6 +15,9 @@ versionOptions(program)
 
 // 小白菜
 cabbage(program)
+
+// 小肥啵
+bobo(program)
 
 // 小蝴蝶
 butterfly(program)
