@@ -4,6 +4,7 @@
 const { Command } = require('commander')
 const versionOptions = require('./lib/core/version')
 const cabbage = require('./lib/core/cabbage')
+const butterfly = require('./lib/core/butterfly')
 const helpOptions = require('./lib/core/help')
 
 const program = new Command()
@@ -11,8 +12,11 @@ const program = new Command()
 // 查看版本号
 versionOptions(program)
 
-// 猫爪印
+// 小白菜
 cabbage(program)
+
+// 小蝴蝶
+butterfly(program)
 
 // 帮助面板
 helpOptions(program)

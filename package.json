@@ -1,21 +1,21 @@
 {
-  "name": "@lesliexin92/cabbage",
+  "name": "@lesliexin92/tiamo",
   "description": "Love date calculator",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "postinstall": "node postinstall.js"
   },
   "bin": {
-    "j": "index.js"
+    "tiamo": "index.js"
   },
   "author": "leslie",
   "license": "ISC",
-  "homepage": "https://github.com/leslieXin92/cabbage.git",
+  "homepage": "https://github.com/leslieXin92/tiamo.git",
   "repository": {
     "type": "git",
-    "url": "https://github.com/leslieXin92/cabbage.git"
+    "url": "https://github.com/leslieXin92/tiamo.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
