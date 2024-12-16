@@ -12,7 +12,7 @@
 
 3. 测试
    ```shell
-   j -v
+   tiamo -v
    ```
 
 4. 开发完毕, 断开映射
@@ -27,7 +27,7 @@
 1. 修改`package.json`
    ```json
    {
-      "name": "@lesliexin92/cabbage",
+      "name": "@lesliexin92/tiamo",
       "publishConfig": {
         "registry": "https://registry.npmjs.org"
       }
@@ -49,7 +49,7 @@
 1. 修改`package.json`
    ```json
    {
-      "name": "cabbage",
+      "name": "tiamo",
       "publishConfig": {
         "registry": "https://npm.pkg.github.com"
       }
@@ -74,9 +74,9 @@
 
 ### V1.0.0
 
-1. version (`j -v`)
-2. help (`j -h`)
-3. date calculation(`j cabbage`、`j cabbage -d <date>`、`j cabbage -t <number>`)
+1. version (`tiamo -v`)
+2. help (`tiamo -h`)
+3. date calculation(`tiamo cabbage`、`tiamo cabbage -d <date>`、`tiamo cabbage -t <number>`)
 
 ### V1.0.1
 
