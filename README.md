@@ -81,3 +81,13 @@
 ### V1.0.1
 
 1. README
+
+### V1.1.0
+
+1. bobo module
+2. butterfly module
+
+### V1.2.0
+
+1. orange module
+2. bobo, butterfly support date diff `tiamo bobo -d 2024-12-16`
