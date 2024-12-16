@@ -8,8 +8,11 @@ const bobo = require('./lib/core/bobo')
 const butterfly = require('./lib/core/butterfly')
 const orange = require('./lib/core/orange')
 const helpOptions = require('./lib/core/help')
+const test = require('./lib/core/test')
 
 const program = new Command()
+
+test(program)
 
 // 查看版本号
 versionOptions(program)
